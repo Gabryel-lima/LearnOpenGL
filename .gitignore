@@ -1,0 +1,61 @@
+# Arquivos de build
+/build/
+/bin/
+/out/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de objetos e binários
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.la
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Arquivos de debug
+*.gch
+*.pch
+*.pdb
+*.idb
+
+# Arquivos de configuração do editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# CMake e outros sistemas de build
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Arquivos temporários
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Arquivos de dependências
+*.d
+
+# Arquivos gerados automaticamente por IDEs
+*.user
+*.ncb
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Arquivos do sistema operacional (opcional)
+*.directory
+
+/soluction/dep
