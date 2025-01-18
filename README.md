@@ -1,91 +1,76 @@
 # LearnOpenGL
 
-Este repositório é dedicado ao estudo e prática de programação gráfica utilizando OpenGL. Baseia-se nos tutoriais disponíveis em [LearnOpenGL.com](https://learnopengl.com/), que oferecem uma abordagem abrangente para aprender OpenGL moderno, desde conceitos básicos até técnicas avançadas.
+This repository is dedicated to the study and practice of graphics programming using OpenGL. It is based on the tutorials available at [LearnOpenGL.com](https://learnopengl.com/), which provide a comprehensive approach to learning modern OpenGL, covering everything from basic concepts to advanced techniques.
+
+## Project Structure
+
+- **shaders/**: Contains the shaders used in the examples.
+- **solutions/**: Includes the implemented solutions for the proposed exercises.
+- **main.cpp**: The main file that runs the examples and demonstrations.
+
+## Dependencies
+
+To compile and run the examples in this repository, ensure the following libraries are installed on your system:
+
+- [GLFW](https://www.glfw.org/): Library for window creation and OpenGL context management.
+- [GLAD](https://glad.dav1d.de/): OpenGL function loader.
+- [GLM](https://github.com/g-truc/glm): Mathematics library for OpenGL.
+- [STB Image](https://github.com/nothings/stb): Library for image loading.
 
 ---
 
-## Estrutura do Projeto
+## Compilation
 
-- **shaders/**: Contém os shaders utilizados nos exemplos.
-- **soluction/**: Inclui as soluções implementadas para os exercícios propostos.
-- **main.cpp**: Arquivo principal que executa os exemplos e demonstrações.
+To compile the project, follow the steps below:
 
----
-
-## Dependências
-
-Para compilar e executar os exemplos deste repositório, certifique-se de que as seguintes bibliotecas estejam instaladas em seu sistema:
-
-- [GLFW](https://www.glfw.org/): Biblioteca para criação de janelas e contextos OpenGL.
-- [GLAD](https://glad.dav1d.de/): Carregador de funções OpenGL.
-- [GLM](https://github.com/g-truc/glm): Biblioteca matemática para OpenGL.
-- [STB Image](https://github.com/nothings/stb): Biblioteca para carregamento de imagens.
-
----
-
-## Compilação
-
-Para compilar o projeto, siga os passos abaixo:
-
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/Gabryel-lima/LearnOpenGL.git
    ```
 
-2. Crie uma pasta para a build e acesse-a:
+2. Create a build folder and navigate to it:
 
    ```bash
    mkdir build
    cd build
    ```
 
-3. Gere os arquivos de build com o CMake:
+3. Generate the build files using CMake:
 
    ```bash
    cmake ..
    ```
 
-4. Compile o projeto:
+4. Compile the project:
 
    ```bash
    make
    ```
-   
+
 ---
 
-## Execução
+## Execution
 
-Após a compilação bem-sucedida, você pode executar o programa com:
+After successful compilation, you can run the program with:
 
 ```bash
 ./LearnOpenGL
 ```
-   
----
 
-## Referências
+## References
 
-- [LearnOpenGL.com](https://learnopengl.com/): Tutoriais e recursos utilizados como base para este projeto.
-- [Documentação do OpenGL](https://www.khronos.org/registry/OpenGL-Refpages/): Referência oficial das funções OpenGL.
+- [LearnOpenGL.com](https://learnopengl.com/): Tutorials and resources used as the foundation for this project.
+- [OpenGL Documentation](https://www.khronos.org/registry/OpenGL-Refpages/): Official reference for OpenGL functions.
 
----
+## License
 
-## Licença
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
+## Contributions
 
----
+Contributions are welcome! Feel free to open an issue or submit a pull request for improvements and fixes.
 
-## Contribuições
+## Contact
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request para melhorias e correções.
-
----
-
-## Contato
-
-Para dúvidas ou sugestões, entre em contato pelo [gabbryellimasi@gmail.com].
-```
-
-   
+For questions or suggestions, contact [gabbryellimasi@gmail.com].
